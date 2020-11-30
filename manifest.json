@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "ToDo list",
   "browser_action": {
-      "default_icon": "icon.jpg",
+      "default_icon": "icon1001.png",
       "default_popup": "popup.html"
   }
 }
