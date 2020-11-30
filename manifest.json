@@ -1,11 +1,10 @@
 {
-  "manifest_version": 1.0,
-
-  "name": "To Do list extension",
-  "description": "This extension shows a Google Image search result for the current page",
+  "manifest_version": 2,
+  "name": "The ToDo list",
   "version": "1.0",
-
+  "description": "ToDo list",
   "browser_action": {
-    "default_icon": "icon1001.png",
-    
+      "default_icon": "icon.jpg",
+      "default_popup": "popup.html"
+  }
 }
