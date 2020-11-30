@@ -1,6 +1,16 @@
 {
-  // Required
-  "manifest_version": "2"
-  "name": "ToDo list extension"
-  "version": "Chrome 60" ,
+  "manifest_version": 1.0,
+
+  "name": "To Do list extension",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon1001.png",
+    
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
 }
